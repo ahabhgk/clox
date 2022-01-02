@@ -15,6 +15,7 @@
 		18E2CE582779B5BD00E1F5F3 /* vm.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E2CE572779B5BD00E1F5F3 /* vm.c */; };
 		18E2CE5B2779D5AB00E1F5F3 /* compiler.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E2CE5A2779D5AA00E1F5F3 /* compiler.c */; };
 		18E2CE5E2779D5C800E1F5F3 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E2CE5D2779D5C800E1F5F3 /* scanner.c */; };
+		18E2CE6127818D0900E1F5F3 /* object.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E2CE6027818D0800E1F5F3 /* object.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,8 @@
 		18E2CE5A2779D5AA00E1F5F3 /* compiler.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compiler.c; sourceTree = "<group>"; };
 		18E2CE5C2779D5C800E1F5F3 /* scanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scanner.h; sourceTree = "<group>"; };
 		18E2CE5D2779D5C800E1F5F3 /* scanner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
+		18E2CE5F27818A7C00E1F5F3 /* object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		18E2CE6027818D0800E1F5F3 /* object.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = object.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,21 +70,23 @@
 				18E2CE4A2779A0F300E1F5F3 /* chunk.c */,
 				18E2CE4927799E1200E1F5F3 /* chunk.h */,
 				18E2CE4827799D5F00E1F5F3 /* common.h */,
+				18E2CE5A2779D5AA00E1F5F3 /* compiler.c */,
+				18E2CE592779D57800E1F5F3 /* compiler.h */,
 				18E2CE502779A4A300E1F5F3 /* debug.c */,
 				18E2CE4F2779A48000E1F5F3 /* debug.h */,
 				18E2CE4127799D2300E1F5F3 /* main.c */,
-				18E2CE562779B22200E1F5F3 /* vm.h */,
-				18E2CE572779B5BD00E1F5F3 /* vm.c */,
 				18E2CE4D2779A31B00E1F5F3 /* memory.c */,
-				18E2CE592779D57800E1F5F3 /* compiler.h */,
-				18E2CE5A2779D5AA00E1F5F3 /* compiler.c */,
-				18E2CE5C2779D5C800E1F5F3 /* scanner.h */,
-				18E2CE5D2779D5C800E1F5F3 /* scanner.c */,
 				18E2CE4C2779A22700E1F5F3 /* memory.h */,
+				18E2CE6027818D0800E1F5F3 /* object.c */,
+				18E2CE5F27818A7C00E1F5F3 /* object.h */,
 				18E2CE3F27799D2300E1F5F3 /* Products */,
 				18E2CE552779AFD100E1F5F3 /* README.md */,
+				18E2CE5D2779D5C800E1F5F3 /* scanner.c */,
+				18E2CE5C2779D5C800E1F5F3 /* scanner.h */,
 				18E2CE532779A77300E1F5F3 /* value.c */,
 				18E2CE522779A6E000E1F5F3 /* value.h */,
+				18E2CE572779B5BD00E1F5F3 /* vm.c */,
+				18E2CE562779B22200E1F5F3 /* vm.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +158,7 @@
 				18E2CE542779A77300E1F5F3 /* value.c in Sources */,
 				18E2CE4227799D2300E1F5F3 /* main.c in Sources */,
 				18E2CE4E2779A31B00E1F5F3 /* memory.c in Sources */,
+				18E2CE6127818D0900E1F5F3 /* object.c in Sources */,
 				18E2CE4B2779A0F400E1F5F3 /* chunk.c in Sources */,
 				18E2CE5E2779D5C800E1F5F3 /* scanner.c in Sources */,
 				18E2CE5B2779D5AB00E1F5F3 /* compiler.c in Sources */,
