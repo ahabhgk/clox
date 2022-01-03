@@ -16,6 +16,7 @@
 		18E2CE5B2779D5AB00E1F5F3 /* compiler.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E2CE5A2779D5AA00E1F5F3 /* compiler.c */; };
 		18E2CE5E2779D5C800E1F5F3 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E2CE5D2779D5C800E1F5F3 /* scanner.c */; };
 		18E2CE6127818D0900E1F5F3 /* object.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E2CE6027818D0800E1F5F3 /* object.c */; };
+		18E2CE642781E33900E1F5F3 /* table.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E2CE632781E33900E1F5F3 /* table.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,8 @@
 		18E2CE5D2779D5C800E1F5F3 /* scanner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
 		18E2CE5F27818A7C00E1F5F3 /* object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
 		18E2CE6027818D0800E1F5F3 /* object.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = object.c; sourceTree = "<group>"; };
+		18E2CE622781E33900E1F5F3 /* table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = table.h; sourceTree = "<group>"; };
+		18E2CE632781E33900E1F5F3 /* table.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = table.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				18E2CE552779AFD100E1F5F3 /* README.md */,
 				18E2CE5D2779D5C800E1F5F3 /* scanner.c */,
 				18E2CE5C2779D5C800E1F5F3 /* scanner.h */,
+				18E2CE632781E33900E1F5F3 /* table.c */,
+				18E2CE622781E33900E1F5F3 /* table.h */,
 				18E2CE532779A77300E1F5F3 /* value.c */,
 				18E2CE522779A6E000E1F5F3 /* value.h */,
 				18E2CE572779B5BD00E1F5F3 /* vm.c */,
@@ -155,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E2CE642781E33900E1F5F3 /* table.c in Sources */,
 				18E2CE542779A77300E1F5F3 /* value.c in Sources */,
 				18E2CE4227799D2300E1F5F3 /* main.c in Sources */,
 				18E2CE4E2779A31B00E1F5F3 /* memory.c in Sources */,
