@@ -12,8 +12,8 @@
 #include "value.h"
 
 typedef struct {
-  ObjString* key;
-  Value value;
+    ObjString* key;
+    Value value;
 } Entry;
 
 typedef struct {
