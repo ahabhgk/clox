@@ -14,8 +14,8 @@
             filePath = "compiler.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "734"
-            endingLineNumber = "734"
+            startingLineNumber = "792"
+            endingLineNumber = "792"
             landmarkName = "compile(source)"
             landmarkType = "9">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "compiler.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "555"
-            endingLineNumber = "555"
+            startingLineNumber = "613"
+            endingLineNumber = "613"
             landmarkName = "varDeclaration()"
             landmarkType = "9">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "vm.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "282"
-            endingLineNumber = "282"
+            startingLineNumber = "328"
+            endingLineNumber = "328"
             landmarkName = "run()"
             landmarkType = "9">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "compiler.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "589"
-            endingLineNumber = "589"
+            startingLineNumber = "647"
+            endingLineNumber = "647"
             landmarkName = "whileStatement()"
             landmarkType = "9">
          </BreakpointContent>
@@ -78,8 +78,8 @@
             filePath = "compiler.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "597"
-            endingLineNumber = "597"
+            startingLineNumber = "655"
+            endingLineNumber = "655"
             landmarkName = "whileStatement()"
             landmarkType = "9">
          </BreakpointContent>
@@ -94,8 +94,8 @@
             filePath = "compiler.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "594"
-            endingLineNumber = "594"
+            startingLineNumber = "652"
+            endingLineNumber = "652"
             landmarkName = "whileStatement()"
             landmarkType = "9">
          </BreakpointContent>
@@ -110,9 +110,9 @@
             filePath = "vm.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
-            landmarkName = "call(function, argCount)"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "call(closure, argCount)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -126,8 +126,8 @@
             filePath = "vm.c"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "196"
-            endingLineNumber = "196"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
             landmarkName = "run()"
             landmarkType = "9">
          </BreakpointContent>
